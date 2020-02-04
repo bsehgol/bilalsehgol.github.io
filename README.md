@@ -1,1 +1,0 @@
-# bilalsehgol.github.io
