@@ -1,9 +1,16 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Bilal Sehgol
+tagline: New York City
 ---
 {% include JB/setup %}
+
+[Designing Meaningful Interactions, UI/UX](bsehgol.github.io/dmi)
+[Device to Database](bsehgol.github.io/devicetodatabase)
+[Hacking the Browser](https://github.com/bsehgol/hackingthebrowser)
+[Collective Play](https://github.com/bsehgol/collectiveplay)
+[Mobile Lab](bsehgol.github.io/mobilelab)
+[Dynamic Web Developmet](https://github.com/bsehgol/dwd)
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
