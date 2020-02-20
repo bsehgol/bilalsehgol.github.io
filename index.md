@@ -7,11 +7,11 @@ tagline: New York City
 
 ## NYU Spring 2020
 
- - [Designing Meaningful Interactions, UI/UX](bsehgol.github.io/dmi)
- - [Device to Database](bsehgol.github.io/devicetodatabase)
+ - [Designing Meaningful Interactions, UI/UX](dmi)
+ - [Device to Database](devicetodatabase)
  - [Hacking the Browser](https://github.com/bsehgol/hackingthebrowser)
  - [Collective Play](https://github.com/bsehgol/collectiveplay)
- - [Mobile Lab](bsehgol.github.io/mobilelab)
+ - [Mobile Lab](mobilelab)
  - [Dynamic Web Developmet](https://github.com/bsehgol/dwd)
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
