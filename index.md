@@ -26,6 +26,8 @@ I have 9 years of experience with user interactivity on software platforms such 
 At [NYU Master's in Interactive Telecommunications Program](https://tisch.nyu.edu/itp) I used Adobe Suite to create original content; Sketch, Figma, and InVision to prototype UI/UX approaches.
 
 Using physical computing and computational media I also designed for behavior. I have prototyped physical and software interactions such as [Baby Arcade](https://docs.google.com/presentation/d/1B6X02WgVRav2-ldXhJka9qMu80qopMIVvaj4LvIbGTU/edit#slide=id.p)
+
+I have made several websites, mobile apps, browser extensions and I am well versed in UI/UX design research and methods.
  
 Please view my LinkedIn and Github here: 
 - [LinkedIn](https://www.linkedin.com/in/bilalsehgol/)
