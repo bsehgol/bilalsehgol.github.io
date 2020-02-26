@@ -5,16 +5,6 @@ tagline: New York City
 ---
 {% include JB/setup %}
 
-## NYU Spring 2020
-
- - [Designing Meaningful Interactions, UI/UX](dmi)
- - [Device to Database](devicetodatabase)
- - [Hacking the Browser](https://github.com/bsehgol/hackingthebrowser)
- - [Collective Play](https://github.com/bsehgol/collectiveplay)
- - [Mobile Lab](mobilelab)
- - [Dynamic Web Developmet](https://github.com/bsehgol/dwd)
- 
- 
 ## Looking to intern with you this summer!
 
 I am currently learning new technologies such as Javascript, SwiftUI and Databases. I have completed three certificate courses in Front-End Development, Python, and C++ and I look forward to learn new technologies through internship experience. 
@@ -33,3 +23,13 @@ Please view my LinkedIn and Github here:
 - [LinkedIn](https://www.linkedin.com/in/bilalsehgol/)
 
 - [Github](https://github.com/bsehgol)
+
+
+## NYU Spring 2020
+
+ - [Designing Meaningful Interactions, UI/UX](dmi)
+ - [Device to Database](devicetodatabase)
+ - [Hacking the Browser](https://github.com/bsehgol/hackingthebrowser)
+ - [Collective Play](https://github.com/bsehgol/collectiveplay)
+ - [Mobile Lab](mobilelab)
+ - [Dynamic Web Developmet](https://github.com/bsehgol/dwd)
