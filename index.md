@@ -17,9 +17,9 @@ tagline: New York City
  
 ## More about Bilal Sehgol
 
-Experimenting with technologies I have worked on integrating an award winning human intelligent assistant [TimeSvr](www.timesvr.com) to voice assistants such as Apple's Siri and Google Now.
+Experimenting with technologies I have worked on integrating an award winning human intelligent assistant [TimeSvr](https://www.timesvr.com) to voice assistants such as Apple's Siri and Google Now.
 
-I have 9 years of experience with user interactivity on software platforms such as [Australia's #1 Property portal](realestate.com.au).
+I have 9 years of experience with user interactivity on software platforms such as [Australia's #1 Property portal](https://realestate.com.au).
 
 At [NYU Master's in Interactive Telecommunications Program](https://tisch.nyu.edu/itp) I used Adobe Suite to create original content; Sketch, Figma, and InVision to prototype UI/UX approaches.
 
