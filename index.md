@@ -15,7 +15,9 @@ tagline: New York City
  - [Dynamic Web Developmet](https://github.com/bsehgol/dwd)
  
  
-## More about Bilal Sehgol
+## Looking to intern with you this summer!
+
+I am currently learning new technologies such as Javascript, SwiftUI and Databases. I have completed three certificate courses in Front-End Development, Python, and C++ and I look forward to learn new technologies through internship experience. 
 
 Experimenting with technologies I have worked on integrating an award winning human intelligent assistant [TimeSvr](https://www.timesvr.com) to voice assistants such as Apple's Siri and Google Now.
 
@@ -24,8 +26,6 @@ I have 9 years of experience with user interactivity on software platforms such 
 At [NYU Master's in Interactive Telecommunications Program](https://tisch.nyu.edu/itp) I used Adobe Suite to create original content; Sketch, Figma, and InVision to prototype UI/UX approaches.
 
 Using physical computing and computational media I also designed for behavior. I have prototyped physical and software interactions such as [Baby Arcade](https://docs.google.com/presentation/d/1B6X02WgVRav2-ldXhJka9qMu80qopMIVvaj4LvIbGTU/edit#slide=id.p)
-
-I am currently learning new technologies such as Javascript, SwiftUI and Databases. I have completed three certificate courses in Front-End Development, Python, and C++ and I look forward to learn new technologies through internship experience. 
  
 Please view my LinkedIn and Github here: 
 - [LinkedIn](https://www.linkedin.com/in/bilalsehgol/)
