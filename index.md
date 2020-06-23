@@ -5,7 +5,7 @@ tagline: New York City
 ---
 {% include JB/setup %}
 
-## Looking to intern with you this summer!
+## Visual Designer at NYU OGS
 
 I have managed user interactivity on software platforms such as [Australia's #1 Property portal](https://realestate.com.au).
 
