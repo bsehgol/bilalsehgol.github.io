@@ -1,0 +1,340 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.1.5/jekyll-search.min.js"></script>
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="/bower_components/simple-jekyll-search/dest/jekyll-search.js" type="text/javascript">
+	
+$(document).ready(function() {
+    $('.search-field').simpleJekyllSearch({
+        jsonFile : '/search.json',
+        jsonFormat : 'title,category,url,date',
+        template : '<a href="{url}" title="{title}" >{title}</a><br />',
+        searchResults : '.results'
+    });
+});
+
+</script> 
+<link href='https://fonts.googleapis.com/css?family=Roboto  ' rel='stylesheet'>
+
+	<style type="text/css">
+
+		body {
+			padding: 30px;
+		}
+		.description{
+			width:220px;
+			height:120px;
+			padding: 15px;
+		}
+
+		.navbar-brand {
+		    float: left;
+		    height: 50px;
+		    padding: 15px 15px 15px 15px;
+		    font-size: 26px;
+			font-weight: 100;
+		    text-shadow: none;
+		    line-height: 20px;
+		}
+
+		.col-md-3 {
+			padding: 15px;			
+		}
+
+		#video-thumb {
+			padding: 20px, 5px, 20px, 5px;
+			width:220px;
+			height:120px;
+		}
+    #name {
+      font-size: 2.5em;
+      font-family: 'Roboto Black', sans-serif;
+      font-weight: bold;
+      line-height: 3.5rem;
+      text-align: center;
+    }
+    #intro {
+      margin: 0 auto;
+      font-size: 17px;
+      width: 670px;
+      font-size: 2.5em;
+      font-family: 'Roboto Mono', sans-serif;
+      line-height: 3.5rem;
+      text-align: left;
+    }
+    
+
+	</style>
+
+</head>
+<body>
+
+      
+
+<!-- Navigation bar -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">bsehgol</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li> -->
+        
+      </ul>
+
+      <!-- menu navbar-left -->
+    <ul class="nav navbar-nav navbar-left">
+
+      <!-- Dropdown -->
+      
+        <li class="dropdown">
+          <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+          <ul class="dropdown-menu">						
+						<li><a href="https://www.timesvr.com">TimeSvr</a></li>
+						<li><a href="/presentation-2015/">DoorJarvis</a></li>
+						<li><a href="http://chatart.herokuapp.com/live">ChatArt</a></li>
+						<li><a href="/witness/">Witness</a></li>
+						<li><a href="/final-social-hacking/">ColorFood</a></li>
+						<li><a href="https://www.youtube.com/embed/_bk2DKBoA9w">surveillanceScreen</a></li>
+						<li><a href="/pcomp-midterm-documentation/">RockPaperScissors</a></li>
+						<li><a href="/reality-check/">meanAlert</a></li>
+						<li><a href="https://jamalcombs.com/ObamaDad-Assistant-Voice-UX-UI-Design">ObamaDad</a></li>
+						<!-- <li><a href="#">MusicalMats</a></li>				
+            <li><a href="#">getAway</a></li>						
+						<li><a href="#">channelChat</a></li> -->
+         
+            <!-- <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li> -->
+          </ul>
+        </li>
+
+        <li>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>   	
+          <ul class="dropdown-menu">
+         	 <!-- <li><a href="/about">About</a></li> -->
+            <li><a href="mailto:bs3862@nyu.edu">Email: bs3862@nyu.edu</a></li>
+            <li><a href="/images/CV_OsamaSehgol.pdf">CV</a></li>
+            <li><a href="https://github.com/bsehgol">Github</a></li>
+           
+
+            <!-- <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li> -->
+          </ul>
+      </li>
+
+      <!-- search bar navbar-right -->
+      <!-- Html Elements for Search -->
+	
+      <!-- <form class="navbar-form navbar-right">
+        <div id="search-container" class="form-group">
+        <input type="text" id="search-input" class="form-control .search-field" placeholder="Search...">
+        <div class="results"></div>
+        <ul id="results-container"></ul>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+	 -->
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<h1 id=name>Bilal Sehgol</h1>
+
+<p id=intro> 
+
+
+  I have managed user interactivity on software platforms such as [Australia's #1 Property portal](https://realestate.com.au).
+  
+  Experimenting with technologies I integrated an award winning human intelligent assistant [TimeSvr](https://www.timesvr.com) with Apple's Siri and Google Now.
+  
+  At [NYU Master's in Interactive Telecommunications Program](https://tisch.nyu.edu/itp) I used Adobe Suite to create original content; Sketch, Figma, and InVision to prototype UI/UX approaches.
+  
+  Using physical computing and computational media I also designed for behavior [Baby Arcade](https://docs.google.com/presentation/d/1B6X02WgVRav2-ldXhJka9qMu80qopMIVvaj4LvIbGTU/edit#slide=id.p)
+  
+  I am learning technologies such as Javascript, SwiftUI and databases (Postgres, Influx). I have completed three certificate courses in Front-End Development, Python, and C++ and I look forward to learn new technologies through internship. I have made several websites, mobile apps, browser extensions and I am trained in UI/UX methods.
+   
+  Please view my LinkedIn and Github here: 
+  - [LinkedIn](https://www.linkedin.com/in/bilalsehgol/)
+  
+  - [Github](https://github.com/bsehgol)
+</p>
+<!-- Row 1 -->
+<div class="row">
+	
+		<div class="col-md-3">
+				<div class="business">
+					<div id="video-thumb">
+						<a href="https://www.timesvr.com">
+							<video muted="true" width="220" height="120" src="video/timesvr_1.2_converted.mov" autoplay="autoplay" loop></video>
+						</a>						
+					</div>
+					<div class="description"><a href="https://www.timesvr.com">TimeSvr</a> is a cloud based virtual assistant, featured in NY Times Best Seller - <a href="https://www.amazon.com/Personal-MBA-Master-Art-Business/dp/1591845572">The Personal MBA</a>, <a href="http://www.slate.com/articles/technology/technology/2010/11/like_a_boss.html">Slate</a>, <a href="http://www.inc.com/magazine/20101001/my-favorite-tool-for-handling-the-small-stuff.html">Inc</a> and <a href="http://gigaom.com/2010/02/03/timesvr-on-demand-virtual-assistants/">GigaOm</a>.
+					</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			   		<div class="artificial-intelligence">
+							<div id="video-thumb">
+								<a href="presentation-2015/">
+									<video muted="true" width="220" height="120" src="video/doorknob_converted.mov" autoplay="autoplay" loop></video>
+								</a>				
+							</div>
+							<div class="description"><a href="/presentation-2015/">DoorJarvis</a> is a low cost intelligent web and SMS enabled system that manages your home's lights, kitchen appliances and frontdoor.</div>
+						</div>
+		</div>
+
+
+		<div class="col-md-3">
+			<div class="business">
+				<div id="video-thumb">
+					<a href="http://chatart.herokuapp.com/live">
+						<img width="220" height="120" src="/images/klee_paul_2.jpg"></img>
+					</a>						
+				</div>
+				<div class="description"><a href="http://chatart.herokuapp.com/live">ChatArt</a> A sentiment aware chat bot that's into Art. Uses Sockets, AFINN (sentiment analysis), MongoDB, Express, Nodejs.</div>
+			</div>
+		</div>
+
+	<div class="col-md-3">
+		   		<div class="conflict-peace-goodwill">
+							<a href="/witness/">
+								<img width="220" height="120" src="/images/un_women_logo.jpg"></img>
+							</a>
+						<div class="description"><a href="/witness/">Witness (2016)</a> was developed in a webRTC hackathon to draw attention to injustices. Uses SMS, video and Twitter alerts via Nodejs
+					</div>
+				</div>
+	</div>
+
+</div>
+
+<!-- Row 2 -->
+<div class="row">	
+		<div class="col-md-3">
+		   	<div class="social-discourse">
+						<div id="video-thumb">
+							<a href="/final-social-hacking/">
+								<img width="220" height="120" src="/images/logofoodandcolor.jpg"></img>
+							</a>							
+						</div>
+						<div class="description"><a href="/final-social-hacking/">ColorFood</a> is a face scanning app that finds ethnic food near you. 
+						</div>
+				</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="artificial-intelligence">
+				 <div id="video-thumb">
+					 <a href="https://www.youtube.com/watch?v=_bk2DKBoA9w">
+						<video muted="true" width="220" height="120" src="video/surveillanceScreen.mp4" autoplay="autoplay" loop></video>	
+					 </a>					
+				 </div>
+				 <div class="description"><b>surveillanceScreen</b> a critique on surveillance. Your camera's always watching - so smile. Uses OpenFrameWorks (C++). 
+				 </div>
+		 </div>
+ 		</div>
+
+		<div class="col-md-3">
+			<div class="business">
+				<div id="video-thumb">
+				<a href="/pcomp-midterm-documentation/">	
+					<video muted="true" width="220" height="120" src="video/RockPaperScissor.mov" autoplay="autoplay" loop></video>
+				</a>
+				</div>
+				<div class="description"><a href="/pcomp-midterm-documentation/">RockPaperScissors (glove)</a> A playing glove using flex sensors to play Rock, Paper, Scissors. Uses JavaScript and Arduino</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+		   	<div class="artificial-intelligence">
+						<div id="video-thumb">
+							<a href="https://twitter.com/MeanAlert">
+								<video muted="true" width="220" height="120" src="video/meanAlert_converted.mov" autoplay="autoplay" loop></video>
+							</a>						
+						</div>
+						<div class="description"><a href="https://twitter.com/MeanAlert">meanAlert</a> replies to mean tweets with mean tweets (esp if you're being mean to somebody less well off). Uses Nodejs. 
+						</div>
+				</div>
+		</div>
+
+</div>
+
+<!-- Row 3 -->
+<div class="row">
+
+		<div class="col-md-3">
+			<div class="business">
+				<div id="video-thumb">
+					<iframe src="https://player.vimeo.com/video/287826384?autoplay=1&loop=1" width="220" height="120" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				</div>
+				<div class="description"><a href="https://jamalcombs.com/ObamaDad-Assistant-Voice-UX-UI-Design">ObamaDad (2017)</a> was developed at Google's Hackathon. Uses JavaScript, API.ai. Co-creator:<a href="https://jamalcombs.com/"> Jamal Combs</a></div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="conflict-peace-goodwill">
+				 <video muted="true" width="220" height="120" src="video/MusicalMats_converted.mov" autoplay="autoplay" loop></video>
+				 <div class="description"><b>MusicalMats</b> are wireless mats for teaching differently abled children how to walk or dance
+			</div>
+		 </div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="business">
+				<div id="video-thumb">
+					<video muted="true" width="220" height="120" src="video/channelChat_converted.mov" autoplay="autoplay" loop></video>
+				</div>
+				<div class="description"><b>ChannelChat</b> is a video chat room for trending hashtags (#) to experiment what could be next for Twitter. Uses webRTC, Sockets and Nodejs.</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="business">
+				 <video muted="true" width="220" height="120" src="video/getAway_converted.mov" autoplay="autoplay" loop></video>
+				 <div class="description"><b>getAway</b> is a chat-based platform connecting weekend vacationers with travel-agents to crowdsource travel service offerings
+				 </div>
+		 </div>
+ 		</div>
+
+	
+</div>
+
+<div class="reviews">
+	<!-- Inc, Slate, GigaOm, Interviews (Blink, CIO) -->
+</div>
+
+<div>
+	<!--  contact, github, linkedin-->
+	<!-- search function: http://christianfei.com/Simple-Jekyll-Search/example/jekyll/update/2014/11/01/test.html -->
+	<!-- https://github.com/slashdotdash/jekyll-lunr-js-search -->
+	<!-- http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/ -->
+	<!-- https://github.com/christian-fei/Simple-Jekyll-Search -->
+	<!--THIS EXPLAINS IT http://dashaman.com/blog/2013/08/01/how-to-add-a-search-function-to-your-jekyll-powered-site%3F/ -->
+</div>
+
+</body>
+</html>
