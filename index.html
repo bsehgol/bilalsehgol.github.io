@@ -8,19 +8,6 @@
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>  
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.1.5/jekyll-search.min.js"></script>
 
-<!-- Script pointing to jekyll-search.js -->
-<script src="/bower_components/simple-jekyll-search/dest/jekyll-search.js" type="text/javascript">
-	
-$(document).ready(function() {
-    $('.search-field').simpleJekyllSearch({
-        jsonFile : '/search.json',
-        jsonFormat : 'title,category,url,date',
-        template : '<a href="{url}" title="{title}" >{title}</a><br />',
-        searchResults : '.results'
-    });
-});
-
-</script> 
 <link href='https://fonts.googleapis.com/css?family=Roboto  ' rel='stylesheet'>
 
 	<style type="text/css">
@@ -54,7 +41,7 @@ $(document).ready(function() {
 			height:120px;
 		}
     #name {
-      font-size: 2.5em;
+      font-size: 3.5em;
       font-family: 'Roboto Black', sans-serif;
       font-weight: bold;
       line-height: 3.5rem;
@@ -63,7 +50,7 @@ $(document).ready(function() {
     #intro {
       margin: 0 auto;
       font-size: 17px;
-      width: 670px;
+      width: 600px;
       font-size: 2.5em;
       font-family: 'Roboto Mono', sans-serif;
       line-height: 3.5rem;
@@ -108,23 +95,14 @@ $(document).ready(function() {
         <li class="dropdown">
           <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">						
-						<li><a href="https://www.timesvr.com">TimeSvr</a></li>
-						<li><a href="/presentation-2015/">DoorJarvis</a></li>
-						<li><a href="http://chatart.herokuapp.com/live">ChatArt</a></li>
-						<li><a href="/witness/">Witness</a></li>
-						<li><a href="/final-social-hacking/">ColorFood</a></li>
-						<li><a href="https://www.youtube.com/embed/_bk2DKBoA9w">surveillanceScreen</a></li>
-						<li><a href="/pcomp-midterm-documentation/">RockPaperScissors</a></li>
-						<li><a href="/reality-check/">meanAlert</a></li>
-						<li><a href="https://jamalcombs.com/ObamaDad-Assistant-Voice-UX-UI-Design">ObamaDad</a></li>
-						<!-- <li><a href="#">MusicalMats</a></li>				
-            <li><a href="#">getAway</a></li>						
-						<li><a href="#">channelChat</a></li> -->
-         
-            <!-- <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li> -->
+            <li><a href="https://www.timesvr.com" target="_blank" rel="noopener noreferrer">TimeSvr</a></li>
+            <li><a href="https://bsehgol.github.io/dmi/" target="_blank" rel="noopener noreferrer">GrowthChart</a></li>
+            <li><a href="https://youtu.be/T_xP6NDoJv4" target="_blank" rel="noopener noreferrer">uberCompost</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SQ7y8yo3k5Q/" target="_blank" rel="noopener noreferrer">covidChat</a></li>
+            <li><a href="https://bsehgol.github.io/devicetodatabase/" target="_blank" rel="noopener noreferrer">PlantToDatabase</a></li>
+            <li><a href="https://vimeo.com/295587603" target="_blank" rel="noopener noreferrer">genieBlender</a></li>
+            <li><a href="https://www.artsteps.com/view/5fcf8bc663913437c612bfdf" target="_blank" rel="noopener noreferrer">ML/AR Marketplace</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">Movement Collective - Zoom Art</a></li>            
           </ul>
         </li>
 
@@ -133,8 +111,8 @@ $(document).ready(function() {
           <ul class="dropdown-menu">
          	 <!-- <li><a href="/about">About</a></li> -->
             <li><a href="mailto:bs3862@nyu.edu">Email: bs3862@nyu.edu</a></li>
-            <li><a href="/images/CV_OsamaSehgol.pdf">CV</a></li>
-            <li><a href="https://github.com/bsehgol">Github</a></li>
+            <li><a href="images/CV_BilalSehgol_Feb2021.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+            <li><a href="https://github.com/bsehgol" target="_blank" rel="noopener noreferrer">Github</a></li>
            
 
             <!-- <li role="separator" class="divider"></li>
@@ -161,34 +139,30 @@ $(document).ready(function() {
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
+<br>
+<br>
 <h1 id=name>Bilal Sehgol</h1>
-
+<br>
+<br>
 <p id=intro> 
+  Hi! I'm a Brooklyn based Product and UI/UX Designer and a graduate from <a href="https://tisch.nyu.edu/itp/explore-itp" target="_blank" rel="noopener noreferrer">NYU Tisch School of Arts - Interactive Technologies Program</a> (2021). 
+  <br><br>
+  I've worked as a Product Manager for high growth startups based in Asia (<a href="https://www.timesvr.com" target="_blank" rel="noopener noreferrer">TimeSvr.com</a>) and Australia (<a href="https://realestate.com.au" target="_blank" rel="noopener noreferrer">1Form.com.au</a>) and a Visual Designer for NYU. 
+  <br><br>
+  My toolkit includes Sketch, Figma, InVision, HTML/CSS, Javascript and working knowledge of Arduino, Python, C++, SwiftUI and databases (Postgres, Influx).
 
-
-  I have managed user interactivity on software platforms such as [Australia's #1 Property portal](https://realestate.com.au).
-  
-  Experimenting with technologies I integrated an award winning human intelligent assistant [TimeSvr](https://www.timesvr.com) with Apple's Siri and Google Now.
-  
-  At [NYU Master's in Interactive Telecommunications Program](https://tisch.nyu.edu/itp) I used Adobe Suite to create original content; Sketch, Figma, and InVision to prototype UI/UX approaches.
-  
-  Using physical computing and computational media I also designed for behavior [Baby Arcade](https://docs.google.com/presentation/d/1B6X02WgVRav2-ldXhJka9qMu80qopMIVvaj4LvIbGTU/edit#slide=id.p)
-  
-  I am learning technologies such as Javascript, SwiftUI and databases (Postgres, Influx). I have completed three certificate courses in Front-End Development, Python, and C++ and I look forward to learn new technologies through internship. I have made several websites, mobile apps, browser extensions and I am trained in UI/UX methods.
-   
-  Please view my LinkedIn and Github here: 
-  - [LinkedIn](https://www.linkedin.com/in/bilalsehgol/)
-  
-  - [Github](https://github.com/bsehgol)
 </p>
 <!-- Row 1 -->
+
+<br>
+<br>
+<br>
 <div class="row">
 	
 		<div class="col-md-3">
 				<div class="business">
 					<div id="video-thumb">
-						<a href="https://www.timesvr.com">
+						<a href="https://www.timesvr.com" target="_blank" rel="noopener noreferrer">
 							<video muted="true" width="220" height="120" src="video/timesvr_1.2_converted.mov" autoplay="autoplay" loop></video>
 						</a>						
 					</div>
@@ -200,11 +174,11 @@ $(document).ready(function() {
 		<div class="col-md-3">
 			   		<div class="artificial-intelligence">
 							<div id="video-thumb">
-								<a href="presentation-2015/">
-									<video muted="true" width="220" height="120" src="video/doorknob_converted.mov" autoplay="autoplay" loop></video>
+								<a href="https://bsehgol.github.io/dmi/" target="_blank" rel="noopener noreferrer">
+									<img src="/images/dmi.png" width="220" height="120"></img>
 								</a>				
 							</div>
-							<div class="description"><a href="/presentation-2015/">DoorJarvis</a> is a low cost intelligent web and SMS enabled system that manages your home's lights, kitchen appliances and frontdoor.</div>
+							<div class="description"><a href="https://bsehgol.github.io/dmi/">GrowthChart</a> UI/UX for a mobile app replacing NYC Yellow Cards for babies born in the city (Sketch, Invision, Balsamiq)</div>
 						</div>
 		</div>
 
@@ -212,20 +186,20 @@ $(document).ready(function() {
 		<div class="col-md-3">
 			<div class="business">
 				<div id="video-thumb">
-					<a href="http://chatart.herokuapp.com/live">
-						<img width="220" height="120" src="/images/klee_paul_2.jpg"></img>
+					<a href="https://youtu.be/T_xP6NDoJv4" target="_blank" rel="noopener noreferrer">
+						<img width="220" height="120" src="/images/uber-compost.png"></img>
 					</a>						
 				</div>
-				<div class="description"><a href="http://chatart.herokuapp.com/live">ChatArt</a> A sentiment aware chat bot that's into Art. Uses Sockets, AFINN (sentiment analysis), MongoDB, Express, Nodejs.</div>
+				<div class="description"><a href="https://youtu.be/T_xP6NDoJv4">uberCompost</a> composting is no longer ugly and tedious (Design Research, Prototyping, Wireframes, Pitch Deck)</div>
 			</div>
 		</div>
 
 	<div class="col-md-3">
 		   		<div class="conflict-peace-goodwill">
-							<a href="/witness/">
-								<img width="220" height="120" src="/images/un_women_logo.jpg"></img>
+							<a href="https://www.youtube.com/watch?v=SQ7y8yo3k5Q/" target="_blank" rel="noopener noreferrer">
+								<img width="220" height="120" src="/images/covid-chat-3.png"></img>
 							</a>
-						<div class="description"><a href="/witness/">Witness (2016)</a> was developed in a webRTC hackathon to draw attention to injustices. Uses SMS, video and Twitter alerts via Nodejs
+						<div class="description"><a href="https://www.youtube.com/watch?v=SQ7y8yo3k5Q/">CovidChat</a> Full-stack web app shares location & messages between quarantined individuals (Node.js, Sockets, Javascript, MongoDB)
 					</div>
 				</div>
 	</div>
@@ -236,12 +210,10 @@ $(document).ready(function() {
 <div class="row">	
 		<div class="col-md-3">
 		   	<div class="social-discourse">
-						<div id="video-thumb">
-							<a href="/final-social-hacking/">
-								<img width="220" height="120" src="/images/logofoodandcolor.jpg"></img>
-							</a>							
-						</div>
-						<div class="description"><a href="/final-social-hacking/">ColorFood</a> is a face scanning app that finds ethnic food near you. 
+            <a href="https://bsehgol.github.io/devicetodatabase/" target="_blank" rel="noopener noreferrer">
+              <img width="220" height="120" src="/images/d2d.png"></img>
+            </a>
+						<div class="description"><a href="https://bsehgol.github.io/devicetodatabase/">PlantToDatabase</a> Visualizing plant humidity, temperature and luminosity data via Graphana, Postgres, MySQL, Nodejs
 						</div>
 				</div>
 		</div>
@@ -249,41 +221,60 @@ $(document).ready(function() {
 		<div class="col-md-3">
 			<div class="artificial-intelligence">
 				 <div id="video-thumb">
-					 <a href="https://www.youtube.com/watch?v=_bk2DKBoA9w">
-						<video muted="true" width="220" height="120" src="video/surveillanceScreen.mp4" autoplay="autoplay" loop></video>	
+					 <a href="https://vimeo.com/295587603" target="_blank" rel="noopener noreferrer">
+						<img width="220" height="120" src="images/genie-blender.png"></img>	
 					 </a>					
 				 </div>
-				 <div class="description"><b>surveillanceScreen</b> a critique on surveillance. Your camera's always watching - so smile. Uses OpenFrameWorks (C++). 
+				 <div class="description"><a href="https://vimeo.com/295587603" target="_blank" rel="noopener noreferrer">genieBlender</a> Critique on infomercials - film edited in Adobe Premiere, Illustrator, Adobe Creative Cloud. 
 				 </div>
 		 </div>
  		</div>
 
+     <div class="col-md-3">
+      <div class="social-discourse">
+         <a href="https://www.artsteps.com/view/5fcf8bc663913437c612bfdf" target="_blank" rel="noopener noreferrer">
+           <img width="220" height="120" src="/images/ml-marketplace.png"></img>
+         </a>
+         <div class="description"><a href="https://www.artsteps.com/view/5fcf8bc663913437c612bfdf" target="_blank" rel="noopener noreferrer">Machine Learning Augmented Reality Marketplace</a> for ML Art (ml5js, ml4a, runwayml)
+         </div>
+     </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="social-discourse">
+         <a href="" target="_blank" rel="noopener noreferrer">
+           <img width="220" height="120" src="/images/live-ml-zoom-art.png"></img>
+         </a>
+         <div class="description"><a href="" target="_blank" rel="noopener noreferrer">Movement Collective - Zoom Art</a> Collecting Zoom facial movements to generate art - SimplePeerJS, Sockets, Javascript, ML5.js
+         </div>
+     </div>
+    </div>
+
+</div> 
+
+
+<!-- Row 3 -->
+<!-- <div class="row">
+
 		<div class="col-md-3">
 			<div class="business">
 				<div id="video-thumb">
-				<a href="/pcomp-midterm-documentation/">	
-					<video muted="true" width="220" height="120" src="video/RockPaperScissor.mov" autoplay="autoplay" loop></video>
-				</a>
+					<iframe src="https://player.vimeo.com/video/287826384?autoplay=1&loop=1" width="220" height="120" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 				</div>
-				<div class="description"><a href="/pcomp-midterm-documentation/">RockPaperScissors (glove)</a> A playing glove using flex sensors to play Rock, Paper, Scissors. Uses JavaScript and Arduino</div>
+				<div class="description"><a href="https://jamalcombs.com/ObamaDad-Assistant-Voice-UX-UI-Design">ObamaDad (2017)</a> was developed at Google's Hackathon. Uses JavaScript, API.ai. Co-creator:<a href="https://jamalcombs.com/"> Jamal Combs</a></div>
 			</div>
 		</div>
 
 		<div class="col-md-3">
-		   	<div class="artificial-intelligence">
-						<div id="video-thumb">
-							<a href="https://twitter.com/MeanAlert">
-								<video muted="true" width="220" height="120" src="video/meanAlert_converted.mov" autoplay="autoplay" loop></video>
-							</a>						
-						</div>
-						<div class="description"><a href="https://twitter.com/MeanAlert">meanAlert</a> replies to mean tweets with mean tweets (esp if you're being mean to somebody less well off). Uses Nodejs. 
-						</div>
-				</div>
+			<div class="conflict-peace-goodwill">
+				 <video muted="true" width="220" height="120" src="video/MusicalMats_converted.mov" autoplay="autoplay" loop></video>
+				 <div class="description"><b>MusicalMats</b> are wireless mats for teaching differently abled children how to walk or dance
+			</div>
+		 </div>
 		</div>
 
-</div>
-
-<!-- Row 3 -->
+		<div class="col-md-3">
+			<div class="business">
 <div class="row">
 
 		<div class="col-md-3">
@@ -318,7 +309,7 @@ $(document).ready(function() {
 				 <div class="description"><b>getAway</b> is a chat-based platform connecting weekend vacationers with travel-agents to crowdsource travel service offerings
 				 </div>
 		 </div>
- 		</div>
+ 		</div> -->
 
 	
 </div>
@@ -328,12 +319,7 @@ $(document).ready(function() {
 </div>
 
 <div>
-	<!--  contact, github, linkedin-->
-	<!-- search function: http://christianfei.com/Simple-Jekyll-Search/example/jekyll/update/2014/11/01/test.html -->
-	<!-- https://github.com/slashdotdash/jekyll-lunr-js-search -->
-	<!-- http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/ -->
-	<!-- https://github.com/christian-fei/Simple-Jekyll-Search -->
-	<!--THIS EXPLAINS IT http://dashaman.com/blog/2013/08/01/how-to-add-a-search-function-to-your-jekyll-powered-site%3F/ -->
+
 </div>
 
 </body>
